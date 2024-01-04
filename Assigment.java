@@ -25,7 +25,6 @@ public class Assigment {
 
             // Define connection to SQL SERVER:
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-//            Assigment con1 = new Assigment("zoharat", "$u5@sVYP");
             con = DriverManager.getConnection(this.connectionURL);
 
 
@@ -74,7 +73,6 @@ public class Assigment {
         try{
             // Define connection to SQL SERVER:
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-//            Assigment con1 = new Assigment("zoharat", "$u5@sVYP");
             con = DriverManager.getConnection(this.connectionURL);
 
             // call the Maximal distance function
@@ -149,7 +147,6 @@ public class Assigment {
         try{
             // Define connection to SQL SERVER:
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-//        Assigment con1 = new Assigment("zoharat", "$u5@sVYP");
             con = DriverManager.getConnection(this.connectionURL);
 
             String query = "SELECT MediaItems.TITLE, Similarity.SIMILARITY\n" +
